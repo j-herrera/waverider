@@ -64,4 +64,4 @@ for i in range(N_stream):
 data = streams[0]
 for i in range(1, N_stream):
     data = np.vstack([data, streams[i]])
-points_to_ply(data, f'waverider_surface_M{Mach}.ply')
+points_to_ply(data, f'conical_waverider_surface_M{Mach}.ply')
